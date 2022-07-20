@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Uitnodiging Jean 68</title>
+  </head>
+  <style>
+    body {
+      font-family: "Courier New", Courier, monospace;
+      background: linear-gradient(
+        90deg,
+        rgb(21, 158, 240) 0%,
+        rgb(236, 229, 227) 57%,
+        rgb(139, 102, 241) 100%
+      );
+    }
+    h1 {
+      color: #03045e;
+      text-align: center;
+    }
+    h1.gefeliciteerd {
+      margin-top: 100px;
+      font-size: 80px;
+      font-weight: bold;
+      text-decoration: underline;
+    }
+    h1.jarige {
+      font-size: 50px;
+      font-weight: bold;
+    }
+    ul {
+      list-style-type: none;
+      display: inline-block;
+    }
+    ul.benodigdheden {
+      list-style-type: square;
+    }
+    ul.vragen {
+      font-weight: bold;
+    }
+    img {
+      display: block;
+      margin: 0 auto;
+      border-radius: 10px;
+    }
+  </style>
+  <body>
+    <h1 class="gefeliciteerd">🥳Hieperdepiep Hoera!!🥳</h1>
+    <br />
+    <img
+      src="https://paulgelsema.cloudns.ph/index.php/s/RYppbb6Gipe9XZB/preview"
+      alt="foto van vaders"
+      style="width: 600px"
+    />
+    <br />
+    <h1 class="jarige">Pap/Jean/Opa is jarig!!</h1>
+    <span>
+      <ul class="vragen">
+        <li>Waar?</li>
+        <li>Wanneer?</li>
+        <li>Wat neem ik mee?</li>
+        <br />
+        <br />
+        <br />
+
+        <li>Wat gaan we doen?</li>
+        <li>Hoe laat word ik verwacht?</li>
+        <li>Tot hoe laat duurt het feestje?</li>
+      </ul>
+
+      <ul class="antwoorden">
+        <li>Nijenheim 1330 in Zeist</li>
+        <li>24 juli, jouw speciale dag!</li>
+        <li>
+          <ul class="benodigdheden">
+            <li>Je fiets</li>
+            <li>Jullie kinderzitje voor achterop</li>
+            <li>Een goed humeur</li>
+            <li>
+              Als je het leuk vindt oma (je mag haar zelf uitnodigen en even
+              doorgeven aan de hostes😉)
+            </li>
+          </ul>
+        </li>
+        <li>Laat je maar verrassen😊</li>
+        <li>Rond 11 uur</li>
+        <li>Na het avondeten mag je Zeist verlaten</li>
+      </ul>
+    </span>
+    <script>
+      let naam = prompt("Hoe heet je?");
+      naam = naam.toLowerCase();
+
+      if (naam === "jean" || naam === "jean-rene") {
+        alert(
+          "🎁🎉Gefeliciteerd!!🎈🥳 Je bent bijna jarig! Hierbij de uitnodiging voor je feestje."
+        );
+      } else {
+        alert("Deze uitnodiging is niet voor jou bedoeld");
+      }
+
+      let leeftijd = prompt("Hoe oud ga je geworden?");
+
+      if (leeftijd == 68) {
+        alert(
+          "Een jaartje ouder, een jaartje wijzer maar nog altijd een actieve, gezonde, jonge geest!😄💪"
+        );
+      } else {
+        alert("Oh jeeh, de leeftijd gaat nu toch echt spelen..😅👨‍🦯");
+      }
+    </script>
+  </body>
+</html>
